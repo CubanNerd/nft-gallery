@@ -44,6 +44,7 @@ function App() {
       setAccount(accounts[0]); //This saves the accounts data requested into the account variable
     } else {
       //if not it will ask you to install metamask
+      alert("Install Metamask");
     }
   };
 
